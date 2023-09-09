@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Business",
+    "\\Business\\Utilities",
+    "\\Business\\ViewModels",
+    "\\Common",
+    "\\Common\\Entities",
+    "\\Common\\Entities\\Base",
+    "\\Presentation",
+    "\\Presentation\\Areas",
+    "\\Presentation\\Areas\\Admin",
+    "\\Presentation\\Areas\\Admin\\Views",
+    "\\Presentation\\Areas\\Admin\\Views\\Slider"
+  ],
+  "SelectedNode": "\\Business\\Services\\Concrete\\Admin\\SliderService.cs",
+  "PreviewInSolutionExplorer": false
+}

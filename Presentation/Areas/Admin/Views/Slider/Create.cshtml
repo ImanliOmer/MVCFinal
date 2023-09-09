@@ -1,0 +1,44 @@
+﻿﻿@using Business.ViewModels.Admin.Slider
+@model SliderCreateVM
+
+<div class="container-fluid">
+
+	<!-- Page Heading -->
+	<h1 class="h3 mb-2 text-gray-800">Create Slider</h1>
+
+	<!-- DataTales Example -->
+	<div class="card shadow mb-4">
+		<div class="card-body">
+			<form enctype="multipart/form-data" asp-action="create" asp-controller="slider" method="post">
+				<div class="form-group">
+					<label asp-for="Title"></label>
+					<input class="form-control" asp-for="Title" />
+					<span asp-validation-for="Title"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Desc"></label>
+					<textarea class="form-control" asp-for="Desc"></textarea>
+					<span asp-validation-for="Desc"></span>
+				</div>
+				<div class="form-group">
+					<label class="form-label" asp-for="BtnLink"></label></br>
+					<input  class="form-label" asp-for="BtnLink">
+					<span asp-validation-for="BtnLink"></span>
+				</div>
+				<div class="form-group">
+					<label class="form-label" asp-for="BtnText"></label></br>
+					<input  class="form-label" asp-for="BtnText">
+					<span asp-validation-for="BtnText"></span>
+				</div>
+				<div class="form-group">
+					<label class="form-label" asp-for="PhotoFile"></label></br>
+					<input type="file" class="form-label" asp-for="PhotoFile">
+					<span asp-validation-for="PhotoFile"></span>
+				</div>
+				<button type="submit" class="btn btn-primary">Create</button>
+			</form>
+		</div>
+	</div>
+
+</div>
+
